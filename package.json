@@ -1,0 +1,12 @@
+{
+  "name": "astitva-mishra-portfolio",
+  "version": "1.0.0",
+  "description": "Premium personal portfolio website for Astitva Mishra",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 3000 -a 127.0.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

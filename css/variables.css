@@ -1,0 +1,63 @@
+:root {
+  --bg-primary: #f8f5ef;
+  --bg-secondary: #efe6d8;
+  --text-primary: #2b2b2b;
+  --text-secondary: #5c4a3d;
+  --accent-gold: #c89b3c;
+  --dark-gold: #a67c2e;
+  --bronze: #8b6b43;
+
+  --surface-card: #ffffff;
+  --surface-tint: #faf8f5;
+  --border-light: rgba(139, 107, 67, 0.12);
+  --border-medium: rgba(139, 107, 67, 0.25);
+  --border-gold: rgba(200, 155, 60, 0.4);
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+
+  --font-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --font-sm: clamp(0.875rem, 0.8rem + 0.3vw, 1rem);
+  --font-base: clamp(1rem, 0.95rem + 0.4vw, 1.125rem);
+  --font-md: clamp(1.125rem, 1.05rem + 0.5vw, 1.25rem);
+  --font-lg: clamp(1.25rem, 1.15rem + 0.7vw, 1.5rem);
+  --font-xl: clamp(1.5rem, 1.35rem + 1vw, 2rem);
+  --font-xxl: clamp(2rem, 1.75rem + 1.5vw, 3rem);
+  --font-display: clamp(2.5rem, 2rem + 2.5vw, 4.5rem);
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --lh-tight: 1.2;
+  --lh-body: 1.6;
+  --lh-heading: 1.3;
+
+  --spacing-xxs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2.5rem;
+  --spacing-xl: 4rem;
+  --spacing-xxl: 6rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 2px 8px rgba(92, 74, 61, 0.04);
+  --shadow-md: 0 10px 30px rgba(92, 74, 61, 0.08);
+  --shadow-lg: 0 20px 50px rgba(92, 74, 61, 0.12);
+  --shadow-gold: 0 10px 25px rgba(200, 155, 60, 0.15);
+
+  --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container-max-width: 1200px;
+  --header-height: 80px;
+}
